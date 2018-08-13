@@ -9,6 +9,9 @@ The "extra files" that it copies should be whatever you put in the "CopyTo_Windo
 
 This plugin is offered "as-is" with absolutely no warranty.
 
+## Installation
+Copy the "ExtraFilesPackager" directory into the "Plugins" directory of your UE4 project. If the "Plugins" directory doesn't exist already, you can create one in the root of your project folder.
+
 ## Alternatives
 You might want to look into alternative ways to get files into your packaged game to see if they are better suited for you:
 https://wiki.unrealengine.com/How_To_Package_Extra_NonUASSET_Files_With_Your_Game
