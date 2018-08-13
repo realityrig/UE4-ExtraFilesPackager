@@ -1,7 +1,7 @@
 # UE4-ExtraFilesPackager
 A plugin for UE4 that can copy additional files into your packaged project. (Windows only) 
 
-This UE4 plugin is for people who want to copy files into their packaged game besides the ones that UE4 generates. For example, if you want to include a EULA.txt or Credits.txt in the root of your game directory. 
+This UE4 plugin is for people who want to copy files into their packaged game directory in addition to the normally generated game files. For example, it might be useful if you want to include a EULA.txt or Credits.txt in the root of your game directory. 
 
 When you choose "File" -> "Package Game" -> "Windows (64-bit)" or "Windows (32-bit)", this plugin should copy the extra files to the WindowsNoEditor directory. (This plugin is only expected to work on Windows and only if you have NO SPACES in the file-path of your project directory and output directory.)
 
