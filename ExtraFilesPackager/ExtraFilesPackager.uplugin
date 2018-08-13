@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Extra Files Packager",
+	"Description": "When you choose \"File\" -> \"Package Game\" -> \"Windows (64-bit)\" or \"Windows (32-bit)\", this plugin should copy extra files to the WindowsNoEditor directory. (Only expected to work on Windows and only if you have NO SPACES in the file-path of your project directory and output directory. The files it copies should be whatever you put in the \"CopyTo_WindowsNoEditor\" directory. It's pretty much a hack, it works by running a batch script as a \"PostBuildStep\" that scrapes an ini file to get the staging directory.",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": true,
+	"PostBuildSteps":
+	{
+		"Win64": [
+			"$(PluginDir)\\CopyFiles.bat $(ProjectDir) $(PluginDir)"
+		]
+	}
+}
