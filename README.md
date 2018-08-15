@@ -7,8 +7,6 @@ When you choose "File" -> "Package Game" -> "Windows (64-bit)" or "Windows (32-b
 
 The "extra files" that it copies should be whatever you put in the "CopyTo_WindowsNoEditor" directory. It works by running a batch script as a "PostBuildStep" that reads an .ini file to get the staging directory.
 
-This plugin is offered "as-is" with absolutely no warranty.
-
 ## Installation
 Copy the "ExtraFilesPackager" directory into the "Plugins" directory of your UE4 project. If the "Plugins" directory doesn't exist already, you can create one in the root of your project folder.
 
